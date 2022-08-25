@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
+
 .gamegrid{
     height: 640px;
     width: 640px;
@@ -10,6 +11,8 @@
 .gamegrid div{
     height: 80px;
     width: 80px;
-    background-size: cover;
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+   
     
 }
