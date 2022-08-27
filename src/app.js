@@ -121,10 +121,12 @@ function checkColumnForThree()
         }
     }
 } 
+
 window.setInterval(function(){
  moveDown()
   checkRowForThree()
   checkColumnForThree()
 },100)
+
 
 });
