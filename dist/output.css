@@ -551,6 +551,18 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -559,8 +571,34 @@ video {
   display: grid;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .gamegrid{
